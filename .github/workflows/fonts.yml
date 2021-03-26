@@ -1,7 +1,7 @@
 name: Fonts
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [ master ]
     types: [ labeled ] # 'build fonts' label
 
