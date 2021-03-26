@@ -1,9 +1,8 @@
 name: Fonts
 
 on:
-  pull_request:
+  push:
     branches: [ master ]
-    types: [ labeled ] # 'build fonts' label
 
 jobs:
   docker:
